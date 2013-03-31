@@ -10,6 +10,7 @@
     <file path="/CountOccurrence.java" changelist="fdeea7d3-c11e-4106-8957-669e0b0676b8" time="1364725521246" ignored="false" />
     <file path="/PerfectNumbers.java" changelist="fdeea7d3-c11e-4106-8957-669e0b0676b8" time="1364734895775" ignored="false" />
     <file path="/Fibonacci.java" changelist="fdeea7d3-c11e-4106-8957-669e0b0676b8" time="1364735720076" ignored="false" />
+    <file path="/SumOfOneToOneHundred.java" changelist="fdeea7d3-c11e-4106-8957-669e0b0676b8" time="1364736506599" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +69,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CalculateTotal.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CalculateTotal.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CalculateTotal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="24" selection-start="261" selection-end="261" vertical-scroll-proportion="0.24361949">
+            <state line="7" column="24" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SumOfOneToOneHundred.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SumOfOneToOneHundred.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="20" selection-start="284" selection-end="284" vertical-scroll-proportion="0.34802786">
               <folding />
             </state>
           </provider>
@@ -120,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/ReverseStringOrder.java" />
         <option value="$PROJECT_DIR$/src/PerfectNumbers.java" />
         <option value="$PROJECT_DIR$/src/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/SumOfOneToOneHundred.java" />
       </list>
     </option>
   </component>
@@ -212,7 +223,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Fibonacci">
+  <component name="RunManager" selected="Application.SumOfOneToOneHundred">
     <configuration default="false" name="CalculateTotal" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="CalculateTotal" />
@@ -273,6 +284,23 @@
     <configuration default="false" name="Fibonacci" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Fibonacci" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Recursion" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SumOfOneToOneHundred" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="SumOfOneToOneHundred" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -378,18 +406,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.CalculateTotal" />
       <item index="1" class="java.lang.String" itemvalue="Application.ReverseStringOrder" />
       <item index="2" class="java.lang.String" itemvalue="Application.CountOccurrence" />
       <item index="3" class="java.lang.String" itemvalue="Application.Fibonacci" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SumOfOneToOneHundred" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.Fibonacci" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CountOccurrence" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ReverseStringOrder" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CalculateTotal" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.SumOfOneToOneHundred" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Fibonacci" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CountOccurrence" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ReverseStringOrder" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CalculateTotal" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -428,7 +458,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.670073" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -519,7 +549,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CalculateTotal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="261" selection-end="261" vertical-scroll-proportion="0.24361949">
+        <state line="7" column="24" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SumOfOneToOneHundred.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="284" selection-end="284" vertical-scroll-proportion="0.34802786">
           <folding />
         </state>
       </provider>
